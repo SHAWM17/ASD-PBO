@@ -9,5 +9,9 @@ public class MahasiswaMain26 {
         mhs1.ubahKelas("TI 2D");
         System.out.println(mhs1.updateIPK(4.5));
         mhs1.tampilkanInfo();
+
+        Mahasiswa26 mhs2 = new Mahasiswa26("M. Attaqi Fadhil", "254123020321", 3.50, "TI 1D");
+        mhs2.updateIPK(3.8);
+        mhs2.tampilkanInfo();
     }
 }
