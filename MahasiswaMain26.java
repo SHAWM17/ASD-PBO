@@ -13,5 +13,8 @@ public class MahasiswaMain26 {
         Mahasiswa26 mhs2 = new Mahasiswa26("M. Attaqi Fadhil", "254123020321", 3.50, "TI 1D");
         mhs2.updateIPK(3.8);
         mhs2.tampilkanInfo();
+
+        Mahasiswa26 mhsRifky = new Mahasiswa26("Rifky Abdurrahman", "25417020132", 3.65, "TI 1D");
+        mhsRifky.tampilkanInfo();
     }
 }
